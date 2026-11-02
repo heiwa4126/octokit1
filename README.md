@@ -1,26 +1,21 @@
 # octkit1
 
+[octokit.js](https://github.com/octokit/octokit.js)
+で GitHub API を使う練習。
 
-
-
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
+## 準備
 
 ```bash
-bun run index.ts
+cp .env_template .env
 ```
 
-To type check:
+次に
+`gh auth token` などでトークンを得て、
+`.env` を編集。
+
+## 実行
 
 ```bash
-bun check
+bun ci
+bun run start
 ```
-
-Run `bun fmt` to format the code.
-
-This project was created using `bun init` in bun v1.4.4. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
