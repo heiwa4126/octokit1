@@ -1,0 +1,19 @@
+{
+	"name": "octkit1",
+	"private": true,
+	"type": "module",
+	"module": "src/index.ts",
+	"scripts": {
+		"format": "bun fmt",
+		"lint": "bun check --no-script",
+		"lint-tsc": "bun check --no-script",
+		"check": "bun fmt && bun check --no-script",
+		"test": "bun test"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^7.0.2"
+	}
+}
