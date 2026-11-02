@@ -1,4 +1,4 @@
-# octkit1
+# octokit1
 
 [octokit.js](https://github.com/octokit/octokit.js)
 で GitHub API を使う練習。

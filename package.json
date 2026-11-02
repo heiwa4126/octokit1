@@ -1,5 +1,5 @@
 {
-  "name": "octkit1",
+  "name": "octokit1",
   "private": true,
   "type": "module",
   "module": "src/index.ts",
